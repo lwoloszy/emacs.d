@@ -411,7 +411,8 @@ typical word processor."
      (screen . nil)
      (,(if (locate-library "ob-sh") 'sh 'shell) . t)
      (sql . t)
-     (sqlite . t))))
+     (sqlite . t)
+     (ipython . t))))
 
 
 (provide 'init-org)
